@@ -1,0 +1,95 @@
+header{
+    margin: 20px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50px;
+    background: linear-gradient(10deg, #efd5ff 0%, #515ada 100%);
+    text-align: center;
+    
+
+}
+footer{
+    margin: 20px;
+    border: 1px solid rgb(92, 85, 85);
+    height: 80px;
+    background: linear-gradient(10deg, #6450a7 0%, #030418 100%);
+    border-radius: 20px;
+
+}
+footer,a{
+    text-decoration: none;
+    color: rgb(158, 207, 219);
+    
+    text-align: center;
+    padding: 10px;
+}
+a:hover{
+    color: rgb(180, 180, 145);
+}
+
+.left{
+    
+    border: 1px solid rgb(230, 186, 186);
+    height: 600px;
+    width: 200px;
+    background: linear-gradient(10deg, #15ff00 0%, #d53ad5 100%);
+    border-radius: 20px;
+    box-sizing: border-box;
+    
+}
+
+.right{
+    height: 600px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 20px;
+    float: right;
+    background: linear-gradient(10deg, #4673d4 0%, #160768 100%);
+}
+.middle{
+    border: 1px solid ;
+    border-radius: 20px;
+    height: 600px;
+    width: auto;
+    background-color: rgb(63, 168, 209);
+    position: absolute;
+    right: 235px;
+    left: 235px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-image: url(wallpaperflare.com_wallpaper\ \(5\).jpg);
+    background-repeat:no-repeat;
+    
+    
+    
+    
+    
+}
+table{
+    font-size: larger;
+    margin-top: 20px;
+    justify-content: center;
+    align-content: center;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    
+
+    
+}
+td:hover{
+    color: rgb(207, 171, 171);
+}
+th,td{
+    border: 2px solid;
+
+}
+form{
+    margin: 10px;
+}
+legend{
+    margin: 20px;
+    color: rgb(197, 113, 113);
+}
