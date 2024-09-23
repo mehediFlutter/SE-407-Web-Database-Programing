@@ -1,0 +1,65 @@
+/* style.css */
+body {
+    font-family: 'Dancing Script', cursive, Arial, sans-serif; /* Adding a romantic font */
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6e6; /* Soft, warm pink background */
+    color: #4d4d4d;
+}
+
+header {
+    background-color: #b3003b; /* Rich burgundy */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 2em; /* Making the header text larger */
+    letter-spacing: 2px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #b3003b;
+    padding: 10px 25px;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 30px; /* Rounded edges for buttons */
+    background-color: #ffd1dc; /* Light pink button */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+nav a:hover {
+    background-color: #ff99ac; /* Darker pink on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+main {
+    padding: 40px;
+    min-height: 300px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #b3003b;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    font-style: italic;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    margin: 0;
+}
